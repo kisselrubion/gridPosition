@@ -5,7 +5,7 @@ export default {
   title: 'GridComponent',
   component: GridComponent,
   argTypes: {
-    input: { control: 'text' }, // Adds a text input control to Storybook
+    input: { control: 'text' },
   },
 };
 
@@ -21,5 +21,5 @@ const Template = (args) => {
 
 export const DefaultGrid = Template.bind({});
 DefaultGrid.args = {
-  input: '2,2 EAST', // Default input that will be displayed when the story loads
+  input: '2,2 EAST',
 };
